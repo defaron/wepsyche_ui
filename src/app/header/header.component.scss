@@ -1,0 +1,24 @@
+.wp-header{
+  .main-logo-container{
+    background-color: white;
+  }
+
+  .navbar-collapse{
+    a{
+      color: #ffffff;
+      border-bottom: solid 1px;
+      padding-left: 2rem;
+      padding-right: 2rem;
+
+      @media screen and (min-width: 992px) {
+        border-bottom: unset;
+      }
+    }
+  }
+
+  .navbar-toggler {
+    .navbar-toggler-icon {
+      background-image: url(src/assets/images/wp-header.hamburger-menu.png) !important;
+    }
+  }
+}

@@ -1,0 +1,7 @@
+@mixin background-primary {
+  background-color: $primary-color !important;
+}
+
+@mixin custom-fonts {
+  font-family: Futura, MONTSERRAT;
+}

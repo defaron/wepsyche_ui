@@ -1,0 +1,7 @@
+.bg-primary {
+  @include background-primary;
+}
+
+body{
+  @include custom-fonts;
+}
