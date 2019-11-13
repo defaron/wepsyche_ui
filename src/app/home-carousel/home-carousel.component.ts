@@ -9,7 +9,7 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 export class HomeCarouselComponent implements OnInit {
 
   constructor(config: NgbCarouselConfig) {
-    config.interval = 2000;
+    config.interval = 5000;
     config.wrap = true;
     config.keyboard = false;
     config.pauseOnHover = false;
