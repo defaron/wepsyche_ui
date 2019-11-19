@@ -1,0 +1,35 @@
+.wp-search-psycho-and-login-user{
+  display: none;
+  background-color: #a2d4da;
+  border-radius: 75px;
+  width:830px;
+  height: 140px;
+
+  .primary-round-container{
+    background-color: #3681a1;
+    border-radius: 75px;
+    width:646px;
+    height: 140px
+  }
+
+  .secondary-round-container{
+    padding-left: 5rem;
+    margin-right: -2rem;
+
+    .secondary-column{
+      margin-left: 8rem;
+      color: #094B56;
+      font-size: smaller;
+      white-space: nowrap;
+      justify-content: center
+    }
+  }
+
+  .search-text{
+    width: 330px;
+  }
+
+  @media screen and (min-width: 768px){
+    display: block;
+  }
+}

@@ -6,14 +6,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { EntrancePrimaryCarouselComponent } from './entrance-primary-carousel/entrance-primary-carousel.component';
+import { LandingPrimaryCarouselComponent } from './landing-primary-carousel/landing-primary-carousel.component';
+import { SearchPsychoAndLoginUserComponent } from './search-psycho-and-login-user/search-psycho-and-login-user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent,
-    EntrancePrimaryCarouselComponent
+    HomeComponent, LandingPrimaryCarouselComponent, SearchPsychoAndLoginUserComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,70 @@
+.wp-landing-primary-carousel{
+  h2{
+    display: none;
+    @media screen and (min-width: 768px){
+      display: block;
+    }
+  }
+  h5{
+    display: block;
+    @media screen and (min-width: 768px){
+      display: none;
+    }
+  }
+  i{
+    font-variant-caps: small-caps;
+    font-size: medium;
+    @media screen and (min-width: 768px){
+      font-size: x-large;
+    }
+  }
+  .carousel-legend-slide-1{
+    position: absolute;
+    top: 68vw;
+    right: 6vh;
+
+    @media screen and (min-width: 768px){
+      position: absolute;
+      top:100px;
+      right: 100px;
+    }
+  }
+  .carousel-legend-slide-2{
+    color:#137b8c !important;
+    position: absolute;
+    top: 7vw;
+    right: 0vh;
+
+    @media screen and (min-width: 768px){
+      position: absolute;
+      top: 4rem;
+      right: 35rem;
+    }
+  }
+  .carousel-legend-slide-3{
+    color:#094B56 !important;
+    position: absolute;
+    top: 28vw;
+    right: 10vh;
+    text-align: center;
+
+    @media screen and (min-width: 768px){
+      position: absolute;
+      top: 4rem;
+      right: 4rem;
+      text-align: right;
+    }
+  }
+  .carousel-slide-dt{
+    display:none;
+    @media screen and (min-width: 768px) {
+      display:block;
+    }
+  }
+  .carousel-slide-mb{
+    display:block;
+    @media screen and (min-width: 768px) {
+      display:none;
+    }
+  }
+}
