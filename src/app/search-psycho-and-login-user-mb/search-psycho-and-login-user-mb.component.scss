@@ -1,0 +1,30 @@
+.wp-search-psycho-and-login-user-mb{
+  font-size: 0.57rem;
+
+  @media screen and (min-width: 992px){
+    display: none;
+  }
+
+  .primary-round-container{
+    background-color: #3681a1;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+    .search-text{
+      height: 70%
+    }
+
+    .btn-outline-light{
+      font-size: 0.75rem !important;
+      img{
+        width: .75rem;
+      }
+    }
+  }
+
+  .secondary-round-container{
+    background-color: #a2d4da;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+}

@@ -30,15 +30,15 @@
     }
   }
   .carousel-legend-slide-2{
-    color:#137b8c !important;
+    color:#128598 !important;
     position: absolute;
     top: 7vw;
-    right: 0vh;
+    right: unset;
 
     @media screen and (min-width: 768px){
       position: absolute;
-      top: 4rem;
-      right: 35rem;
+      top: 2rem;
+      width: 100%;
     }
   }
   .carousel-legend-slide-3{
