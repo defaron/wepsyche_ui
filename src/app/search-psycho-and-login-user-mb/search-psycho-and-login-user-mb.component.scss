@@ -23,8 +23,19 @@
   }
 
   .secondary-round-container{
+    color:#094B56;
     background-color: #a2d4da;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    padding-bottom: .3rem;
+
+    span{
+      font-size: 1rem;
+    }
+
+    a{
+      border-bottom: solid;
+      border-bottom-width: medium;
+    }
   }
 }
